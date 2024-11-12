@@ -1,0 +1,27 @@
+{
+  "name": "haokee-theme",
+  "displayName": "Haokee Theme",
+  "description": "a theme by haokee. use material colors.",
+  "author": "haokee",
+  "publisher": "haokee",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Haokee Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Haokee Theme-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}
