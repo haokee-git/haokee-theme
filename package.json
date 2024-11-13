@@ -4,8 +4,9 @@
   "description": "a theme by haokee. use material colors.",
   "author": "haokee",
   "publisher": "haokee",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "icon": "icon.png",
+  "repository": "https://github.com/haokee-git/haokee-theme",
   "engines": {
     "vscode": "^1.95.0"
   },

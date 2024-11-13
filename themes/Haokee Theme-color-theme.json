@@ -11,8 +11,10 @@
 		"activityBar.dropBorder": "#4480F4",
 		"activityBar.foreground": "#787A7F",
 		"activityBar.inactiveForeground": "#B3B3B4",
-		"activityBarBadge.background": "#598DEF",
+		"activityBarBadge.background": "#42A5F5",
 		"activityBarBadge.foreground": "#fff",
+		"banner.background": "#0065ffa8",
+		"banner.foreground": "#fff",
     "list.activeSelectionIconForeground": "#fff",
 		"editorBracketHighlight.foreground1": "#FF6D12",
 		"editorBracketHighlight.foreground2": "#C838C6",
@@ -209,6 +211,42 @@
 			}
 		},
 		{
+			"scope": "support.type.property-name.json.comments",
+			"settings": {
+				"foreground": "#1565C0",
+			}
+		},
+		{
+			"scope": "constant.language.json.comments",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "constant.language.true.cpp",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "constant.language.false.cpp",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "storage.type.rust",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "meta.use.rust",
+			"settings": {
+				"foreground": "#689F38",
+			}
+		},
+		{
 			"scope": "entity.name.section.markdown",
 			"settings": {
 				"foreground": "#F57F17",
@@ -307,6 +345,18 @@
 			],
 			"settings": {
 				"foreground": "#AAAAAA"
+			}
+		},
+		{
+			"scope": "storage.modifier.import.java",
+			"settings": {
+				"foreground": "#689F38",
+			}
+		},
+		{
+			"scope": "storage.modifier.package.java",
+			"settings": {
+				"foreground": "#689F38",
 			}
 		},
 		{
