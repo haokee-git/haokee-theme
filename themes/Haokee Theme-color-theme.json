@@ -247,6 +247,18 @@
 			}
 		},
 		{
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#1565C0",
+			}
+		},
+		{
+			"scope": "constant.language.json",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
 			"scope": "entity.name.section.markdown",
 			"settings": {
 				"foreground": "#F57F17",

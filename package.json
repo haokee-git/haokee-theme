@@ -4,11 +4,11 @@
   "description": "a theme by haokee. use material colors.",
   "author": "haokee",
   "publisher": "haokee",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "icon": "icon.png",
   "repository": "https://github.com/haokee-git/haokee-theme",
   "engines": {
-    "vscode": "^1.95.0"
+    "vscode": "^1.1.0"
   },
   "categories": [
     "Themes"
