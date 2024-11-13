@@ -366,6 +366,43 @@
 			}
 		},
 		{
+			"scope": "storage.type.function.python",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "meta.function-call.generic.python",
+			"settings": {
+				"foreground": "#3949AB",
+			}
+		},
+		{
+			"scope": "meta.indexed-name.python",
+			"settings": {
+				"foreground": "#00897B",
+			}
+		},
+		{
+			"scope": "storage.type.js",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "keyword.operator.new.js",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": ["keyword.other.unit.hexadecimal.cpp",
+		            "keyword.other.unit.binary.cpp"],
+			"settings": {
+				"foreground": "#F44336",
+			}
+		},
+		{
 			"name": "HTML: Doctype Declaration",
 			"scope": [
 				"meta.tag.sgml.doctype",
