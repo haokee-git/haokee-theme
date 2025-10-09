@@ -16,10 +16,10 @@
 		"banner.background": "#0065ffa8",
 		"banner.foreground": "#fff",
     "list.activeSelectionIconForeground": "#fff",
-		"editorBracketHighlight.foreground1": "#FF6D12",
+		"editorBracketHighlight.foreground1": "#ff8512",
 		"editorBracketHighlight.foreground2": "#C838C6",
 		"editorBracketHighlight.foreground3": "#437AED",
-		"editorBracketHighlight.foreground4": "#FF6D12",
+		"editorBracketHighlight.foreground4": "#ff8512",
 		"editorBracketHighlight.foreground5": "#C838C6",
 		"editorBracketHighlight.foreground6": "#437AED",
 		"editorBracketPairGuide.activeBackground1": "#FF6D12cc",
@@ -111,6 +111,27 @@
 			}
 		},
 		{
+			"name": "C++ Built-in Types",
+			"scope": [
+				"storage.type.built-in.cpp",
+				"storage.type.built-in.primitive.cpp"
+			],
+			"settings": {
+				"foreground": "#39960e"
+			}
+		},
+		{
+			"name": "C++ Member Variables",
+			"scope": [
+				"variable.other.member.cpp",
+				"variable.other.property.cpp",
+				"variable.other.field.cpp"
+			],
+			"settings": {
+				"foreground": "#e64848"
+			}
+		},
+		{
 			"name": "Language Constants",
 			"scope": [
 				"constant.language",
@@ -138,7 +159,8 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#3949AB"
+				"foreground": "#3949AB",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -174,7 +196,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#F44336"
+				"foreground": "#eb7221"
 			}
 		},
 		{
@@ -226,6 +248,7 @@
 			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#FB8C00",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -323,6 +346,24 @@
 		},
 	  {
 			"scope": "storage.type.class",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "storage.type.struct.cpp",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "storage.type.enum.cpp",
+			"settings": {
+				"foreground": "#AB47BC",
+			}
+		},
+		{
+			"scope": "storage.type.union.cpp",
 			"settings": {
 				"foreground": "#AB47BC",
 			}
