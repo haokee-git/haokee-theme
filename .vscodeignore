@@ -2,3 +2,10 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+node_modules/**
+**/*.map
+.git/**
+.github/**
+**/.DS_Store
+*.vsix
+package-lock.json
