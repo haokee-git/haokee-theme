@@ -1,9 +1,8 @@
 {
   "editor.tabSize": 2,
-  "editor.fontFamily": "Maple Mono, PingFang SC",
+  "editor.fontFamily": "Maple Mono NF CN, Maple Mono, PingFang SC",
   "editor.lineHeight": 24,
   "editor.fontLigatures": true,
-  "editor.fontWeight": 350,
   "files.associations": {
     "ostream": "cpp"
   }
