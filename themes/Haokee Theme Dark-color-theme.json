@@ -546,6 +546,9 @@
 			"scope": [
 				"entity.name.type",
 				"entity.other.inherited-class",
+				"entity.name.type.cpp",
+				"entity.other.inherited-class.cpp",
+				"meta.head.class.cpp",
 				"support.class"
 			],
 			"settings": {
