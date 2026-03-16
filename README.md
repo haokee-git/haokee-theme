@@ -1,16 +1,8 @@
 # Haokee Theme / 渴鹅主题
 
-<div style="display: flex;">
-  <div style="flex: 1;">
-    <img src="./screenshot/light.png"/>
-    <p>
-      Haokee Light 主题
-    </p>
-    </div>
-  <div style="flex: 1;">
-    <img src="./screenshot/dark.png"/>
-    <p>
-      Haokee Dark 主题
-    </p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center"><img src="./screenshot/light.png"/><br/>Haokee Light 主题</td>
+    <td align="center"><img src="./screenshot/dark.png"/><br/>Haokee Dark 主题</td>
+  </tr>
+</table>
