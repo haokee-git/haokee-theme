@@ -460,7 +460,7 @@
 			"name": "Operators",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#D4E157"
+				"foreground": "#ccdb42"
 			}
 		},
 		{
@@ -492,7 +492,7 @@
 				"storage.type.built-in.primitive.cpp"
 			],
 			"settings": {
-				"foreground": "#B2FF59"
+				"foreground": "#93db41"
 			}
 		},
 		{
