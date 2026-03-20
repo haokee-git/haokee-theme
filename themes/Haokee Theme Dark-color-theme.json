@@ -399,6 +399,35 @@
 		},
 		"keyword": {
 			"foreground": "#CE93D8"
+		},
+		"type": {
+			"foreground": "#1DE9B6"
+		},
+		"typeParameter": {
+			"foreground": "#1DE9B6"
+		},
+		"namespace": {
+			"foreground": "#1DE9B6"
+		},
+		"class": {
+			"foreground": "#1DE9B6"
+		},
+		"struct": {
+			"foreground": "#1DE9B6"
+		},
+		"enum": {
+			"foreground": "#1DE9B6"
+		},
+		"enumMember": {
+			"foreground": "#FFAB40"
+		},
+		"function": {
+			"foreground": "#8C9EFF",
+			"italic": true
+		},
+		"method": {
+			"foreground": "#8C9EFF",
+			"italic": true
 		}
 	},
 	"tokenColors": [
