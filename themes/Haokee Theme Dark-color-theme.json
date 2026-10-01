@@ -378,6 +378,9 @@
 			"bold": true,
 			"italic": false
 		},
+		"variable": {
+			"foreground": "#6EA8FF"
+		},
 		"variable.readonly": {
 			"foreground": "#86ADE7",
 			"bold": true
@@ -422,11 +425,11 @@
 			"foreground": "#E79B58"
 		},
 		"function": {
-			"foreground": "#95A4EE",
+			"foreground": "#A8A2FF",
 			"italic": true
 		},
 		"method": {
-			"foreground": "#95A4EE",
+			"foreground": "#A8A2FF",
 			"italic": true
 		}
 	},
@@ -556,7 +559,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#78A5E8"
+				"foreground": "#6EA8FF"
 			}
 		},
 		{
@@ -566,7 +569,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#95A4EE",
+				"foreground": "#A8A2FF",
 				"fontStyle": "italic"
 			}
 		},
@@ -831,7 +834,7 @@
 		{
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"foreground": "#95A4EE"
+				"foreground": "#A8A2FF"
 			}
 		},
 		{
