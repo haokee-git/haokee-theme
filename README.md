@@ -21,3 +21,8 @@ An elegant VS Code theme. The UI follows a macOS-inspired style with a custom co
 我是好渴鹅，[个人主页](https://note.haokee.org/)，欢迎通过邮件 haokee114@gmail.com 联系我。
 
 I'm Haokee. Visit my [personal site](https://note.haokee.org/) or reach me by email at haokee114@gmail.com.
+
+
+## JetBrains / IDEA / CLion
+
+A JetBrains port is available in [`idea/`](./idea/). It keeps the Light/Dark palette and focuses on C/C++, Java and Kotlin syntax highlighting instead of copying VS Code-specific UI keys.

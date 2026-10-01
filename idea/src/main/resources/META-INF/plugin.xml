@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin>
+  <id>org.haokee.theme</id>
+  <name>Haokee Theme</name>
+  <vendor email="haokee114@gmail.com" url="https://note.haokee.org/">Haokee</vendor>
+  <description><![CDATA[
+    Haokee Theme for JetBrains IDEs. Includes Light and Dark variants with dedicated C/C++, Java and Kotlin syntax colors.
+  ]]></description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="8f127f52-8184-4bb4-87d6-0fb0fdf92340" path="/haokee-light.theme.json" />
+    <themeProvider id="b8382a09-e92d-40e6-95d2-11de94963124" path="/haokee-dark.theme.json" />
+  </extensions>
+</idea-plugin>
