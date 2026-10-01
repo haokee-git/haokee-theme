@@ -5,6 +5,7 @@
   "author": "haokee",
   "publisher": "haokee",
   "version": "2.0.4",
+  "license": "MIT",
   "icon": "icon.png",
   "repository": {
     "type": "git",
