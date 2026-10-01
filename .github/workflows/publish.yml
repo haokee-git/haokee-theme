@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: read
-  id-token: write
 
 concurrency:
   group: vscode-marketplace-publish
@@ -28,5 +27,16 @@ jobs:
         with:
           node-version: 22
 
+      - name: Check Marketplace token
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: |
+          if [ -z "$VSCE_PAT" ]; then
+            echo "::error::Missing repository secret VSCE_PAT"
+            exit 1
+          fi
+
       - name: Publish extension
-        run: npx --yes @vscode/vsce publish --oidc
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: npx --yes @vscode/vsce@3.9.2 publish --skip-duplicate -p "$VSCE_PAT"
